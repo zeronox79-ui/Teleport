@@ -1,16 +1,3 @@
-/**
- * Topblast — Fees & Revenue on TON
- *
- * Topblast charges a 1% platform fee on every swap routed through its
- * aggregator (DeDust, STON.fi, Tonco, Bidask).
- * 100% of collected fees are protocol revenue used for GROYP buybacks.
- *
- * Fee wallet (user-friendly): UQDu4AiT__JKuqT0Znje0RoXIQMPcj4uIGYZme3UK4hFlE_Q
- * Fee wallet (raw):           0:eee0084ffffc92aea4f46679ded118172103f723e2e206619a9eddf42b8845d4
- *
- * Sources: Swap Widget, Terminal, Launchpad, @groypfi_bot
- * Website: https://topblast.lol
- */
 
 import { FetchOptions, SimpleAdapter } from "../../adapters/types";
 import { CHAIN } from "../../helpers/chains";
